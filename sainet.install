@@ -1,0 +1,79 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+
+function sainet_schema() {
+  
+  $schema = array();
+  //Change number table
+  $schema['sainet_register'] = array(
+    'description' => 'Table to save registered users in sainet.',
+    'fields' => array(
+      'id_sr' => array(
+        'description' => t('The primary identifier.'),
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE
+      ),
+      'send_date' => array(
+        'description' => t('Send Date'),
+        'mysql_type' => 'DATETIME',
+        'not null' => TRUE
+      ), 
+      'name' => array(
+        'description' => 'User names.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ), 
+      'last_name' => array(
+        'description' => 'Surname of the user.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ), 
+      'genre' => array(
+        'description' => 'Sex of the user.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ), 
+      'birthdate' => array(
+        'description' => 'Date of birth of the user.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ), 
+      'city' => array(
+        'description' => 'User city.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'phone' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => 'User phone.',
+        'default' => 0,
+      ), 
+      'address' => array(
+        'description' => 'User address.',
+        'type' => 'varchar',
+        'length' => '32',
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'primary key' => array('id_sr'),
+  );
+  
+  return $schema;
+}

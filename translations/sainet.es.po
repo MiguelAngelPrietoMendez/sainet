@@ -1,0 +1,228 @@
+# $Id$
+#
+# Spanish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  sainet.operations.inc: n/a
+#  sainet.page.inc: n/a
+#  sainet.module: n/a
+#  sainet.install: n/a
+#  sainet.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-27 17:51-0500\n"
+"PO-Revision-Date: 2016-11-27 17:59-0500\n"
+"Language-Team: Spanish <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: es_CO\n"
+
+#: sainet.operations.inc:31
+msgid "Form for edit user"
+msgstr "Formulario para editar usuario"
+
+#: sainet.operations.inc:36;216 sainet.page.inc:91;271
+msgid "Name"
+msgstr "Nombre"
+
+#: sainet.operations.inc:37 sainet.page.inc:92
+msgid "User names"
+msgstr "Nombre de usuarios"
+
+#: sainet.operations.inc:44;217 sainet.page.inc:99;272
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: sainet.operations.inc:45 sainet.page.inc:100
+msgid "Surname of the user"
+msgstr "Apellidos del Usuario"
+
+#: sainet.operations.inc:51 sainet.page.inc:106
+msgid "Woman"
+msgstr "Mujer"
+
+#: sainet.operations.inc:52 sainet.page.inc:107
+msgid "Man"
+msgstr "Hombre"
+
+#: sainet.operations.inc:55;218 sainet.page.inc:110;273;360
+msgid "Genre"
+msgstr "Genero"
+
+#: sainet.operations.inc:56 sainet.page.inc:111
+msgid "Sex of the user"
+msgstr "Genero del usuario"
+
+#: sainet.operations.inc:74;219 sainet.page.inc:120;274
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+#: sainet.operations.inc:75 sainet.page.inc:121
+msgid "Date of birth of the user"
+msgstr "Fecha de nacimiento del usuario"
+
+#: sainet.operations.inc:81;220 sainet.page.inc:153;275
+msgid "City"
+msgstr "Ciudad"
+
+#: sainet.operations.inc:82 sainet.page.inc:154
+msgid "User city"
+msgstr "Ciudad del usuario"
+
+#: sainet.operations.inc:89;221 sainet.page.inc:161;276
+msgid "Phone"
+msgstr "Telefono"
+
+#: sainet.operations.inc:90 sainet.page.inc:162
+msgid "User phone"
+msgstr "Teléfono del usuario"
+
+#: sainet.operations.inc:98;222 sainet.page.inc:170;277
+msgid "Address"
+msgstr "Dirección"
+
+#: sainet.operations.inc:99 sainet.page.inc:171
+msgid "User address"
+msgstr "Dirección del usuario"
+
+#: sainet.operations.inc:112
+msgid "Update"
+msgstr "Actualizar"
+
+#: sainet.operations.inc:143
+msgid "Successfully updated user."
+msgstr "Usuario actualizado satisfactoriamente"
+
+#: sainet.operations.inc:145
+msgid "There was an error updating the user, try later."
+msgstr "Se produjo un error al actualizar el usuario, intente más tarde."
+
+#: sainet.operations.inc:195
+msgid "User deleted successfully."
+msgstr "El usuario se eliminó correctamente."
+
+#: sainet.operations.inc:197
+msgid "There was an error deleting the user, please try later."
+msgstr "Se ha producido un error al eliminar el usuario. Inténtalo más tarde."
+
+#: sainet.operations.inc:214 sainet.page.inc:269
+msgid "Shipping ID"
+msgstr "ID de envío"
+
+#: sainet.operations.inc:215 sainet.page.inc:270
+msgid "Date of shipment"
+msgstr "Fecha de envío"
+
+#: sainet.page.inc:27
+msgid "Back"
+msgstr "Atras"
+
+#: sainet.page.inc:41
+msgid "Next"
+msgstr "Siguiente"
+
+#: sainet.page.inc:52
+msgid "Submit"
+msgstr "Enviar"
+
+#: sainet.page.inc:242
+msgid "You have successfully registered, with the following data:!values"
+msgstr "Se ha registrado correctamente, con los siguientes datos: !values"
+
+#: sainet.page.inc:244
+msgid "An error occurred while registering the user, try later."
+msgstr "Se produjo un error al registrar al usuario, intente más tarde."
+
+#: sainet.page.inc:278
+msgid "Operations"
+msgstr "Operaciones"
+
+#: sainet.page.inc:338
+msgid "Filter option"
+msgstr "Filtros"
+
+#: sainet.page.inc:345
+msgid "Filter Range"
+msgstr "Filtro por rango"
+
+#: sainet.page.inc:349
+msgid "From"
+msgstr "Desde"
+
+#: sainet.page.inc:354
+msgid "To"
+msgstr "Hasta"
+
+#: sainet.page.inc:365
+msgid "Name and last name"
+msgstr "Nombres y Apellidos"
+
+#: sainet.page.inc:371
+msgid "Filter"
+msgstr "Filtrar"
+
+#: sainet.page.inc:387
+msgid "Edit"
+msgstr "Editar"
+
+#: sainet.page.inc:387
+msgid "Delete"
+msgstr "Eliminar"
+
+#: sainet.page.inc:395
+msgid "Table has no row!"
+msgstr "La tabla no tiene filas!"
+
+#: sainet.page.inc:403
+msgid "Download Report xls"
+msgstr "Descargar Reporte xls"
+
+#: sainet.module:34
+msgid "Editar Usuario"
+msgstr ""
+
+#: sainet.module:44
+msgid "Eliminar Usuario"
+msgstr ""
+
+#: sainet.module:54
+msgid "Reporte"
+msgstr ""
+
+#: sainet.module:10
+msgid "Formulario de Registro"
+msgstr ""
+
+#: sainet.module:11
+msgid "Ingresa los datos solicitados"
+msgstr ""
+
+#: sainet.module:22
+msgid "Usuario Registrados"
+msgstr ""
+
+#: sainet.module:23
+msgid "Esta tabla muestra los usuario registrados en Sainet"
+msgstr ""
+
+#: sainet.install:15
+msgid "The primary identifier."
+msgstr ""
+
+#: sainet.install:21
+msgid "Send Date"
+msgstr "Fecha de envío"
+
+#: sainet.info:0;0
+msgid "SAINET"
+msgstr ""
+
+#: sainet.info:0
+msgid "SAINET - PRUEBA 1"
+msgstr ""

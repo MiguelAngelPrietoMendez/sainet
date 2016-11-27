@@ -1,0 +1,63 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function sainet_menu() {
+
+  // registro de usuarios
+  $items['register/person'] = array(
+    'title' => 'Formulario de Registro',
+    'description' => 'Ingresa los datos solicitados',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('sainet_register_form'),
+    'file' => 'sainet.page.inc',
+    'access callback' => TRUE,
+    'menu_name' => 'main-menu',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  
+  // listado de usuarios registrados
+  $items['management/list-person'] = array(
+    'title' => 'Usuario Registrados',
+    'description' => 'Esta tabla muestra los usuario registrados en Sainet',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('sainet_list_person_form'),
+    'file' => 'sainet.page.inc',
+    'access callback' => TRUE,
+    'menu_name' => 'main-menu',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  // editar usuario
+  $items['management/edit-person/%'] = array(
+    'title' => t('Editar Usuario'),
+    'page callback' => 'sainet_edit_person',
+    'page arguments' => array(2),
+    'access callback' => TRUE,
+    'file' => 'sainet.operations.inc',
+    'type' => MENU_CALLBACK,
+  );
+
+  // eliminar usuario
+  $items['management/delete-person/%'] = array(
+    'title' => t('Eliminar Usuario'),
+    'page callback' => 'sainet_delete_person',
+    'page arguments' => array(2),
+    'access callback' => TRUE,
+    'file' => 'sainet.operations.inc',
+    'type' => MENU_CALLBACK,
+  );
+
+  // descargar reporte
+  $items['management/report'] = array(
+    'title' => t('Reporte'),
+    'page callback' => 'sainet_report',
+    'access callback' => TRUE,
+    'file' => 'sainet.operations.inc',
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+

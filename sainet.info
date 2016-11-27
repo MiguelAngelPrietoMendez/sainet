@@ -1,0 +1,6 @@
+name = SAINET
+description = SAINET - PRUEBA 1
+package = SAINET
+core = 7.x
+
+

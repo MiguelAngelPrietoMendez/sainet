@@ -1,0 +1,228 @@
+# $Id$
+#
+# Spanish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  sainet.operations.inc: n/a
+#  sainet.page.inc: n/a
+#  sainet.module: n/a
+#  sainet.install: n/a
+#  sainet.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-27 16:50-0600\n"
+"PO-Revision-Date: 2016-11-27 16:50-0600\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: sainet.operations.inc:31
+msgid "Form for edit user"
+msgstr ""
+
+#: sainet.operations.inc:36;216 sainet.page.inc:91;271
+msgid "Name"
+msgstr ""
+
+#: sainet.operations.inc:37 sainet.page.inc:92
+msgid "User names"
+msgstr ""
+
+#: sainet.operations.inc:44;217 sainet.page.inc:99;272
+msgid "Last Name"
+msgstr ""
+
+#: sainet.operations.inc:45 sainet.page.inc:100
+msgid "Surname of the user"
+msgstr ""
+
+#: sainet.operations.inc:51 sainet.page.inc:106
+msgid "Woman"
+msgstr ""
+
+#: sainet.operations.inc:52 sainet.page.inc:107
+msgid "Man"
+msgstr ""
+
+#: sainet.operations.inc:55;218 sainet.page.inc:110;273;360
+msgid "Genre"
+msgstr ""
+
+#: sainet.operations.inc:56 sainet.page.inc:111
+msgid "Sex of the user"
+msgstr ""
+
+#: sainet.operations.inc:74;219 sainet.page.inc:120;274
+msgid "Birthdate"
+msgstr ""
+
+#: sainet.operations.inc:75 sainet.page.inc:121
+msgid "Date of birth of the user"
+msgstr ""
+
+#: sainet.operations.inc:81;220 sainet.page.inc:153;275
+msgid "City"
+msgstr ""
+
+#: sainet.operations.inc:82 sainet.page.inc:154
+msgid "User city"
+msgstr ""
+
+#: sainet.operations.inc:89;221 sainet.page.inc:161;276
+msgid "Phone"
+msgstr ""
+
+#: sainet.operations.inc:90 sainet.page.inc:162
+msgid "User phone"
+msgstr ""
+
+#: sainet.operations.inc:98;222 sainet.page.inc:170;277
+msgid "Address"
+msgstr ""
+
+#: sainet.operations.inc:99 sainet.page.inc:171
+msgid "User address"
+msgstr ""
+
+#: sainet.operations.inc:112
+msgid "Update"
+msgstr ""
+
+#: sainet.operations.inc:143
+msgid "Successfully updated user."
+msgstr ""
+
+#: sainet.operations.inc:145
+msgid "There was an error updating the user, try later."
+msgstr ""
+
+#: sainet.operations.inc:195
+msgid "User deleted successfully."
+msgstr ""
+
+#: sainet.operations.inc:197
+msgid "There was an error deleting the user, please try later."
+msgstr ""
+
+#: sainet.operations.inc:214 sainet.page.inc:269
+msgid "Shipping ID"
+msgstr ""
+
+#: sainet.operations.inc:215 sainet.page.inc:270
+msgid "Date of shipment"
+msgstr ""
+
+#: sainet.page.inc:27
+msgid "Back"
+msgstr ""
+
+#: sainet.page.inc:41
+msgid "Next"
+msgstr ""
+
+#: sainet.page.inc:52
+msgid "Submit"
+msgstr ""
+
+#: sainet.page.inc:242
+msgid "You have successfully registered, with the following data:!values"
+msgstr ""
+
+#: sainet.page.inc:244
+msgid "An error occurred while registering the user, try later."
+msgstr ""
+
+#: sainet.page.inc:278
+msgid "Operations"
+msgstr ""
+
+#: sainet.page.inc:338
+msgid "Filter option"
+msgstr ""
+
+#: sainet.page.inc:345
+msgid "Filter Range"
+msgstr ""
+
+#: sainet.page.inc:349
+msgid "From"
+msgstr ""
+
+#: sainet.page.inc:354
+msgid "To"
+msgstr ""
+
+#: sainet.page.inc:365
+msgid "Name and last name"
+msgstr ""
+
+#: sainet.page.inc:371
+msgid "Filter"
+msgstr ""
+
+#: sainet.page.inc:387
+msgid "Edit"
+msgstr ""
+
+#: sainet.page.inc:387
+msgid "Delete"
+msgstr ""
+
+#: sainet.page.inc:395
+msgid "Table has no row!"
+msgstr ""
+
+#: sainet.page.inc:403
+msgid "Download Report xls"
+msgstr ""
+
+#: sainet.module:34
+msgid "Editar Usuario"
+msgstr ""
+
+#: sainet.module:44
+msgid "Eliminar Usuario"
+msgstr ""
+
+#: sainet.module:54
+msgid "Reporte"
+msgstr ""
+
+#: sainet.module:10
+msgid "Formulario de Registro"
+msgstr ""
+
+#: sainet.module:11
+msgid "Ingresa los datos solicitados"
+msgstr ""
+
+#: sainet.module:22
+msgid "Usuario Registrados"
+msgstr ""
+
+#: sainet.module:23
+msgid "Esta tabla muestra los usuario registrados en Sainet"
+msgstr ""
+
+#: sainet.install:15
+msgid "The primary identifier."
+msgstr ""
+
+#: sainet.install:21
+msgid "Send Date"
+msgstr ""
+
+#: sainet.info:0;0
+msgid "SAINET"
+msgstr ""
+
+#: sainet.info:0
+msgid "SAINET - PRUEBA 1"
+msgstr ""
+
